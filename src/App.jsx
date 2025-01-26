@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import SavedCities from "./components/SavedCities";
 import WeatherByLocation from "./components/WeatherByLocation";
 import Settings from "./components/Settings";
 
 function App() {
   return (
-    <Router basename="/WeatherApp">
+    <Router >
       <nav className="flex w-full justify-around p-4 bg-gray-200 text-[10px] lg:text-[20px] md:text-[15px]">
         <Link
           to="/"

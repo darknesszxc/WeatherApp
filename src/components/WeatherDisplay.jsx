@@ -69,10 +69,11 @@ function WeatherDisplay({ cityName, weatherInfo, isLocationBased }) {
           )}
 
           <WeatherIconDescription weatherId={weatherInfo.weather[0].id} />
-          {displayParameters.includes("temp") && (
+          { 
             <p className="font-bold">{temp}°C</p>
-          )}
+          }
         </div>
+        {  (displayParameters.length!=0) && 
         <div className="border-l-2 p-4 border-orange-400">
           {displayParameters.includes("feels_like") && (
             <p>Ощущается как: {feels_like}°C</p>
@@ -87,6 +88,7 @@ function WeatherDisplay({ cityName, weatherInfo, isLocationBased }) {
             <p>Влажность: {humidity}%</p>
           )}
         </div>
+      }
       </div>
     </div>
   );

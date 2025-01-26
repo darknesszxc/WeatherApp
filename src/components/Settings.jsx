@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function Settings() {
   const parameterLabels = {
-    temp: "Температура",
+    
     feels_like: "Ощущается как",
     humidity: "Влажность",
     sunrise: "Время рассвета",
