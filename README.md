@@ -1,6 +1,9 @@
 
 # WeatherApp React + Vite 
 
+## Deploy gh-pages: https://darknesszxc.github.io/WeatherApp/
+
+
 ## To install the project use the following code.
 
 Make sure you have git and Node installed.
@@ -18,6 +21,8 @@ npm run dev
 ```
 
 Then open http://localhost:5173/WeatherApp/ in your browser
+
+ 
 
 
 
